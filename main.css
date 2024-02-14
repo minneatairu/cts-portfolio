@@ -166,3 +166,10 @@ border:2px dashed lime;
     text-decoration: none;
     cursor: pointer;
 }
+
+
+model-viewer {
+    width: 100vw !important;
+    height: 100vh !important;
+  
+}
