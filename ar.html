@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="container">
+        <model-viewer src="swordfish.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls
+            tone-mapping="commerce" poster="poster.webp" shadow-intensity="1" autoplay auto-rotate>
+
+            <div id="ar-prompt">
+            </div>
+        </model-viewer>
+<p>Animated 3D Model via <a href="https://sketchfab.com/3d-models/koi-fish-f7e2e4858f2f438aa2832566220199f4" target="_blank"> Sketchfab</a></p>
+
+    </div>
+
+    <!-- Background Music --> 
+    <audio autoplay loop>
+        <source src="media/music.mp3" type="audio/mpeg">
+    </audio>
+
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
+</body>
+
+</html>
